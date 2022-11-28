@@ -1,4 +1,4 @@
-package com.satish.AuthenticatorService.model;
+package com.wemanage.AuthenticatorService.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,9 +1,9 @@
-package com.satish.AuthenticatorService.controller;
+package com.wemanage.AuthenticatorService.controller;
 
-import com.satish.AuthenticatorService.config.JwtGeneratorInterface;
-import com.satish.AuthenticatorService.exception.UserNotFoundException;
-import com.satish.AuthenticatorService.model.User;
-import com.satish.AuthenticatorService.service.UserService;
+import com.wemanage.AuthenticatorService.config.JwtGeneratorInterface;
+import com.wemanage.AuthenticatorService.exception.UserNotFoundException;
+import com.wemanage.AuthenticatorService.model.User;
+import com.wemanage.AuthenticatorService.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

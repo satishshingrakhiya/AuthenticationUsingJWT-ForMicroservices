@@ -12,7 +12,7 @@
 	<artifactId>AuthenticatorService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AuthenticatorService</name>
-	<description>Authentication Service for We Manage</description>
+	<description>Authentication Service for Microservice</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

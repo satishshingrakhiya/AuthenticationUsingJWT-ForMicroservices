@@ -1,6 +1,6 @@
-package com.satish.AuthenticatorService.config;
+package com.wemanage.AuthenticatorService.config;
 
-import com.satish.AuthenticatorService.model.User;
+import com.wemanage.AuthenticatorService.model.User;
 
 import java.util.Map;
 

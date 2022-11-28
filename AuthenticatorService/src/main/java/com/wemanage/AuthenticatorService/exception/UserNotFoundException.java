@@ -1,4 +1,4 @@
-package com.satish.AuthenticatorService.exception;
+package com.wemanage.AuthenticatorService.exception;
 
 public class UserNotFoundException extends Exception {
     public String message;

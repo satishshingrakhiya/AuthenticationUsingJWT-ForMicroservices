@@ -1,7 +1,7 @@
-package com.satish.AuthenticatorService.service;
+package com.wemanage.AuthenticatorService.service;
 
-import com.satish.AuthenticatorService.exception.UserNotFoundException;
-import com.satish.AuthenticatorService.model.User;
+import com.wemanage.AuthenticatorService.exception.UserNotFoundException;
+import com.wemanage.AuthenticatorService.model.User;
 import org.springframework.stereotype.Service;
 
 @Service
