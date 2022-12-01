@@ -22,16 +22,20 @@ This Project represent how to use JWT token for authentication in Microservices
 }
 This will create user with username Test.
 2. Now send post request to http://localhost:8081/api/v1/user/login, in Body select raw and JSON format and add following payload
+
 {
     "username":"Test",
     "password":"Password"
 }
+
 This will send back HTTP OK response and follwing 
+
 {
     "message": "Token Generated Successfully",
-    "token": "==Generated Token Value=="
+    "token": "<Mark>Generated Token Value</Mark>"
 }
+
 3. Now send Get request to http://localhost:8082/api/v1/test/restricted with following changes
-    a. Add new Header "Authorization"
-    b. Set its value as "Bearer ==Generated Token Value=="
-    c. Send request and you will be able to access enpoint now.
+a. Add new Header "Authorization"
+b. Set its value as "Bearer <Mark>Generated Token Value</Mark>"
+c. Send request and you will be able to access enpoint now.
